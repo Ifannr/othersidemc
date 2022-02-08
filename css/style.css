@@ -1,398 +1,402 @@
-body{
-    background-color: #20202a;
-    font: 18px/36px 'BebasNeue', 'Arial Narrow', arial, sans-serif;
+body {
+  background-color: #20202a;
+  font: 18px/36px "BebasNeue", "Arial Narrow", arial, sans-serif;
 }
 
 /*Font*/
 @font-face {
-    font-family: 'BebasNeue';
-	src: url(../font/BebasNeue-Regular.woff) format('woff');
+  font-family: "BebasNeue";
+  src: url(../font/BebasNeue-Regular.woff) format("woff");
 }
 
-h1{
-    font-size: 80px;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 70px;
-    color: #eaeaea;
-    line-height: 40px;
+h1 {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  color: #eaeaea;
+  line-height: 40px;
 }
 
-.referensi{
-    color: #888;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    text-align: center;
-    margin-top: -60px;
-    margin-bottom: 50px;
+.referensi {
+  color: #888;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  margin-top: -60px;
+  margin-bottom: 50px;
 }
 
-a{
-    text-decoration: none;
-    color: salmon;
+a {
+  text-decoration: none;
+  color: salmon;
 }
 
-.container{
-    width: 600px;
-	background-color: #20202A;
-	margin: auto;
-	padding: 30px;
-	box-shadow: 0 5px 20px 3px rgba(0,0,0,.7);
-	border-radius: 5px;
+.container {
+  width: 600px;
+  background-color: #20202a;
+  margin: auto;
+  padding: 30px;
+  box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
 }
 
 /* Foto Na*/
-.gallery li{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    /*overflow: hidden;*/
-    border:4px solid rgba(200, 200, 200, .5);
-    float: left;
-    position: relative;
+.gallery li {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  /*overflow: hidden;*/
+  border: 4px solid rgba(200, 200, 200, 0.5);
+  float: left;
+  position: relative;
 }
 
 /* Posisi Per Foto:v*/
-.gallery li.asta{
-    margin-left: 9px;
+.gallery li.asta {
+  margin-left: 9px;
 }
 
-.gallery li.deku{
-    margin-left: 96px;
+.gallery li.deku {
+  margin-left: 96px;
 }
 
-.gallery li.shinra{
-    margin-left: 97px;
+.gallery li.shinra {
+  margin-left: 97px;
 }
 
-.gallery li.narto{
-    margin-top: 30px;
-    margin-left: 9px;
+.gallery li.narto {
+  margin-top: 30px;
+  margin-left: 9px;
 }
 
-.gallery li.ken{
-    margin-top: 30px;
-    margin-left: 96px;
+.gallery li.ken {
+  margin-top: 30px;
+  margin-left: 96px;
 }
 
-.gallery li.borto{
-    margin-top: 30px;
-    margin-left: 97px;
+.gallery li.borto {
+  margin-top: 30px;
+  margin-left: 97px;
 }
 
-.gallery li.yuji{
-    margin-top: 30px;
-    margin-left: 9px;
+.gallery li.yuji {
+  margin-top: 30px;
+  margin-left: 9px;
 }
-.gallery li.eren{
-    margin-top: 30px;
-    margin-left: 96px;
-}
-
-.gallery li.saitama{
-    margin-top: 30px;
-    margin-left: 97px;
+.gallery li.eren {
+  margin-top: 30px;
+  margin-left: 96px;
 }
 
-.gallery li.jin{
-    margin-top: 25px;
-    margin-left: 9px;
+.gallery li.saitama {
+  margin-top: 30px;
+  margin-left: 97px;
 }
 
-.gallery li.yuu{
-    margin-top: 25px;
-    margin-left: 96px;
+.gallery li.jin {
+  margin-top: 25px;
+  margin-left: 9px;
 }
 
-.gallery li.yato{
-    margin-top: 25px;
-    margin-left: 97px;
+.gallery li.yuu {
+  margin-top: 25px;
+  margin-left: 96px;
 }
 
-.gallery li.chou{
-    margin-top: 25px;
-    margin-left: 9px;
+.gallery li.yato {
+  margin-top: 25px;
+  margin-left: 97px;
 }
 
-.gallery li.akihito{
-    margin-top: 25px;
-    margin-left: 96px;
+.gallery li.chou {
+  margin-top: 25px;
+  margin-left: 9px;
 }
 
-.gallery li.aniki{
-    margin-top: 25px;
-    margin-left: 97px;
+.gallery li.akihito {
+  margin-top: 25px;
+  margin-left: 96px;
 }
 
-.gallery li.tanjiro{
-    margin-top: 25px;
-    margin-left: 9px;
+.gallery li.aniki {
+  margin-top: 25px;
+  margin-left: 97px;
 }
 
-.gallery li.gon{
-    margin-top: 25px;
-    margin-left: 96px;
+.gallery li.tanjiro {
+  margin-top: 25px;
+  margin-left: 9px;
 }
 
-.gallery li.mob{
-    margin-top: 25px;
-    margin-left: 97px;
+.gallery li.gon {
+  margin-top: 25px;
+  margin-left: 96px;
 }
 
-.gallery li.sinichi{
-    margin-top: 25px;
-    margin-left: 9px;
+.gallery li.mob {
+  margin-top: 25px;
+  margin-left: 97px;
 }
 
-.gallery li.atsushi{
-    margin-top: 25px;
-    margin-left: 96px;
+.gallery li.sinichi {
+  margin-top: 25px;
+  margin-left: 9px;
 }
 
-.gallery li.hiro{
-    margin-top: 25px;
-    margin-left: 97px;
+.gallery li.atsushi {
+  margin-top: 25px;
+  margin-left: 96px;
 }
 
-.gallery li.iwatani{
-    margin-top: 25px;
-    margin-left: 9px;
+.gallery li.hiro {
+  margin-top: 25px;
+  margin-left: 97px;
 }
 
-.gallery li.meliodas{
-    margin-top: 25px;
-    margin-left: 96px;
+.gallery li.iwatani {
+  margin-top: 25px;
+  margin-left: 9px;
 }
 
-.gallery li.tatsumi{
-    margin-top: 25px;
-    margin-left: 97px;
+.gallery li.meliodas {
+  margin-top: 25px;
+  margin-left: 96px;
 }
 
-.gallery li.nagisa{
-    margin-top: 25px;
-    margin-left: 9px;
+.gallery li.tatsumi {
+  margin-top: 25px;
+  margin-left: 97px;
 }
 
-.gallery li.tetsuya{
-    margin-top: 25px;
-    margin-left: 96px;
+.gallery li.nagisa {
+  margin-top: 25px;
+  margin-left: 9px;
 }
 
-.gallery li.hinata{
-    margin-top: 25px;
-    margin-left: 97px;
+.gallery li.tetsuya {
+  margin-top: 25px;
+  margin-left: 96px;
 }
 
-.gallery li.lingwang{
-    margin-top: 25px;
-    margin-left: 9px;
+.gallery li.hinata {
+  margin-top: 25px;
+  margin-left: 97px;
 }
 
-.gallery li.touta{
-    margin-top: 25px;
-    margin-left: 96px;
+.gallery li.lingwang {
+  margin-top: 25px;
+  margin-left: 9px;
 }
 
-.gallery li.ichigo{
-    margin-top: 25px;
-    margin-left: 97px;
+.gallery li.touta {
+  margin-top: 25px;
+  margin-left: 96px;
 }
 
-.gallery li.goku{
-    margin-top: 25px;
-    margin-left: 9px;
+.gallery li.ichigo {
+  margin-top: 25px;
+  margin-left: 97px;
 }
 
-.gallery li.natsu{
-    margin-top: 25px;
-    margin-left: 96px;
+.gallery li.goku {
+  margin-top: 25px;
+  margin-left: 9px;
 }
 
-.gallery li.luffy{
-    margin-top: 25px;
-    margin-left: 97px;
+.gallery li.natsu {
+  margin-top: 25px;
+  margin-left: 96px;
 }
 
-.gallery li.edward{
-    margin-top: 25px;
-    margin-left: 9px;
+.gallery li.luffy {
+  margin-top: 25px;
+  margin-left: 97px;
 }
 
-.gallery li.kira{
-    margin-top: 25px;
-    margin-left: 96px;
+.gallery li.edward {
+  margin-top: 25px;
+  margin-left: 9px;
 }
 
-.gallery li.rokuro{
-    margin-top: 25px;
-    margin-left: 97px;
+.gallery li.kira {
+  margin-top: 25px;
+  margin-left: 96px;
 }
 
-
+.gallery li.rokuro {
+  margin-top: 25px;
+  margin-left: 97px;
+}
 
 .gallery li,
 .gallery li span,
-.gallery li img{
-    border-radius: 50%;
+.gallery li img {
+  border-radius: 50%;
 }
 
-.gallery li span{
-    display: block;
-    width: 120px;
-    height: 120px;
-    background-color: rgba(200, 200, 200, .5);
-    position: absolute;
-    top: 0px;
-    text-align: center;
-    line-height: 120px;
-    color: #333;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.867);
-    opacity: 0;
-    transform: scale(0) rotate(0);
-    transition: .3s;
+.gallery li span {
+  display: block;
+  width: 120px;
+  height: 120px;
+  background-color: rgba(200, 200, 200, 0.5);
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  line-height: 120px;
+  color: #333;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.867);
+  opacity: 0;
+  transform: scale(0) rotate(0);
+  transition: 0.3s;
 }
 
 .gallery li a:hover span {
-    opacity: 1;
-    transform: scale(1) rotate(360deg);
+  opacity: 1;
+  transform: scale(1) rotate(360deg);
 }
-
-
 
 /* fix overflow */
-.clear{
-    clear: both;
+.clear {
+  clear: both;
 }
 
-
-
-
 /* Overlay */
-.overlay{
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0);
-    z-index: 9999;
-    transition: .8s;
-    text-align: center;
-    padding: 100px 0;
+.overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  transition: 0.8s;
+  text-align: center;
+  padding: 100px 0;
 }
 
 .overlay:target {
-    width: auto;
-    height: auto;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0,0,0,.7);
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.overlay img{
-    max-height: 100%;
-    box-shadow: 2px 2px 7px rgba(0,0,0,.5);
-	border: 1px solid #888;
+.overlay img {
+  max-height: 100%;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+  border: 1px solid #888;
 }
 
-.overlay:target img{
-    animation: fadeAjah 1.5s;
+.overlay:target img {
+  animation: fadeAjah 1.5s;
 }
 
-.overlay .close{
-    position: absolute;
-    top: 60px;
-    left: 50%;
-    margin-left: -20px;
-    color: white;
-    text-decoration: none;
-    background-color: black;
-    line-height: 15px;
-    border: 1px solid white;
-    padding: 4px;
-    opacity: 0;
+.overlay .close {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  margin-left: -20px;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  line-height: 15px;
+  border: 1px solid white;
+  padding: 4px;
+  opacity: 0;
 }
 
-.overlay:target .close{
-    animation: SlideDownFade .5s .5s forwards;
+.overlay:target .close {
+  animation: SlideDownFade 0.5s 0.5s forwards;
 }
 
 .overlay:target .next,
-.overlay:target .prev{
-    animation: fadeAjah .5s .5s forwards;
+.overlay:target .prev {
+  animation: fadeAjah 0.5s 0.5s forwards;
 }
-
 
 /* Next & Prev Gambar*/
-.next{
-    width: 57px;
-    height: 93px;
-    background-image: url(../img/next.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    text-indent: -999999px;
-    margin-top:200px;
-    margin-left: 30px;
-    opacity: 0;
+.next {
+  width: 57px;
+  height: 93px;
+  background-image: url(../img/next.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  text-indent: -999999px;
+  margin-top: 200px;
+  margin-left: 30px;
+  opacity: 0;
 }
 
-.prev{
-    width: 57px;
-    height: 93px;
-    background-image: url(../img/prev.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    text-indent: -999999px;
-    margin-top: 200px;
-    margin-left: -90px;
-    opacity: 0;
+.prev {
+  width: 57px;
+  height: 93px;
+  background-image: url(../img/prev.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  text-indent: -999999px;
+  margin-top: 200px;
+  margin-left: -90px;
+  opacity: 0;
 }
 /* Animasi */
-@keyframes fadeAjah{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+@keyframes fadeAjah {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@keyframes ZoomdanFade{
-    0%{
-        transform: scale(0);
-        opacity: 0;
-    }
-    100%{
-        transform: scale(1);
-        opacity: 1;
-    }
+@keyframes ZoomdanFade {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
-@keyframes SlideDownFade{
-    0%{
-        opacity: 0;
-        margin-top: -20px;
-    }
-    100%{
-        opacity: 1;
-        margin-top: 0;
-    }
+@keyframes SlideDownFade {
+  0% {
+    opacity: 0;
+    margin-top: -20px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
 }
 
+/*Responsive*/
+@media screen and (max-width: 576px) {
+  .container { 
+      width: 60%; 
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.footer{
+    width: 60%;
+    margin-top: 50px;
+}
+}
 
 /*Footer*/
-.footer{
-	text-align: center;
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 13px;
-	width: 600px;
-	color: #888;
-	background-color: #20202A;
-	margin: 10px auto;
-	padding: 0 30px;
-	box-shadow: 0 5px 20px 3px rgba(0,0,0,.7);
-	border-radius: 5px;
+.footer {
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 13px;
+  width: 600px;
+  color: #888;
+  background-color: #20202a;
+  margin: 10px auto;
+  padding: 0 30px;
+  box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
 }
-
